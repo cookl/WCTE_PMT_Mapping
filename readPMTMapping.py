@@ -1,6 +1,6 @@
 import json
 
-#an example script to read out LED mapping from the json created by makeMappingJson.py
+#an example script to read out PMT mapping from the json created by makeMappingJson.py
 
 def get_positions_from_entry(long_form_id):
     #longform id is just the mpmt_id*100 + pmt_id 
