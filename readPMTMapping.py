@@ -16,7 +16,7 @@ def get_key_from_value(json_data, input_value):
 
 # Open and read the JSON file
 with open('PMT_Mapping.json', 'r') as file:
-    pmt_data = json.load(file)
+    pmt_data = json.load(file)["mapping"]
     
 #example 1 get position id (offline data format) from electronics channel and card id (raw data format) 
 
